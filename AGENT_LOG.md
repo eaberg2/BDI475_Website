@@ -11,3 +11,9 @@ Copy this outline for each entry:
 - **Agent produced:** What it made or changed.
 - **Checked or changed:** How you checked it, and what you fixed.
 ```
+
+## 2026-11-09: Median sale prices by city
+
+- **Asked:** "Read AGENTS.md and docs/data_description_sheet.md first. Then replace the placeholder index.html with a page that shows the median sale price for each city, computed from data/college_town_home_sales.csv. Leave out sales under $10,000 and state that rule on the page."
+- **Agent produced:** Replaced the placeholder with a GitHub Pages-compatible HTML page that loads the CSV, filters out sales below $10,000, computes medians by city, and displays the results in a table.
+- **Checked or changed:** Verified the computed city medians independently from the CSV with Python and documented the filtering rule on the page.
